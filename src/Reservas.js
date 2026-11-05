@@ -6,12 +6,12 @@ function Reservas() {
   const [fechaFin, setFechaFin] = useState('');
 
   const manejarReserva = (e) => {
-    e.preventDefault(); // Evita que la página se recargue
+    e.preventDefault(); 
     if (!habitacionSeleccionada || !fechaInicio || !fechaFin) {
       alert("Por favor, completa todos los campos para tu reserva.");
       return;
     }
-    // Confirmación requerida por el TP
+    
     alert(`¡Reserva confirmada!\nHabitación: ${habitacionSeleccionada}\nDesde: ${fechaInicio}\nHasta: ${fechaFin}`);
   };
 

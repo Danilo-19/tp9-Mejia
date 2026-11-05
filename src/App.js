@@ -3,7 +3,7 @@ import Header from './Header';
 import Inicio from './Inicio';
 import Acerca from './Acerca';
 import Reservas from './Reservas';
-import './App.css'; // Asegúrate de tener este archivo o ajusta los estilos a tu gusto
+import './App.css'; 
 
 function App() {
   const [paginaActual, setPaginaActual] = useState('inicio');
